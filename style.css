@@ -1,0 +1,558 @@
+.Home{
+  background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
+  margin: 0px;
+}
+
+.Drawings{
+  background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
+  margin: 0px;
+  height: 2550px;
+  width: 1474px;
+}
+
+.Drawings2{
+  background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
+  margin: 0px;
+  height: 890px;
+  width: 1474px;
+}
+
+.Poetry,
+.Poetry2,
+.Poetry3,
+.Poetry4,
+.Poetry5{
+  background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
+  margin: 0px;
+  height: 2240px;
+}
+
+.Poetry2{
+  height: 3000px;
+}
+
+.Poetry3{
+  height: 2845px;
+}
+
+.Poetry4{
+  height: 2390px;
+}
+
+.Poetry5{
+  height: 2325px;
+}
+
+.OC{
+  background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
+  margin: 0px;
+}
+
+.Participation{
+  background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
+  margin: 0px;
+}
+
+.AboutMe{
+  background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
+  margin: 0px;
+  height: 1200px;
+}
+
+.Logo{
+display: inline-block;
+margin-top: 0px;
+border-width: 2px;
+border-color: black;
+border-style: solid;
+background-image: linear-gradient(to bottom right, yellow, orange);
+border-top: transparent;
+border-left-width: 0px;
+border-bottom-right-radius: 20px; 
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 12px;
+padding-right: 12px;
+}
+
+@font-face { font-family: Minnie; src: url('Minnie.TTF');}
+
+.buttons{
+  background-image: linear-gradient(to bottom right, yellow, orange);
+  color: black;
+  font-family: Minnie;
+  font-size: 15px;
+  border-radius: 4px;
+  border-style: solid;
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-top: 10px;
+  margin-left: 8px;
+  transition: opacity 0.15s;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+}
+
+.buttons:hover{
+  opacity: 0.8;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.buttons:active{
+  opacity: 0.6;
+}
+
+.drawing{
+  height: 400px;
+  width: 300px;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.dtitle, 
+.dtitleM,
+.dtitleB,
+.dtitleBG,
+.dtitleMe,
+.dtitleC,
+.dtitleK{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.dtitleM{
+  margin-top: 2px;
+  margin-bottom: 1px;
+}
+
+.dtitleC{
+  margin-top: 2px;
+  margin-bottom: 1px;
+}
+
+.dtitleMe{
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
+.dtitleB{
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.dtitleBG{
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
+.dtitleK{
+  margin-top: 2px;
+  margin-bottom: 1px;
+}
+
+.date{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.drawingbox{
+  background-image: linear-gradient(to right, rgb(245, 187, 80), rgb(243, 97, 97));
+  height: 470px;
+  width: 300px;
+  display: inline-block;
+  margin: 0px;
+  vertical-align: top;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 6px;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.6);
+}
+
+.boxdrawingarea{
+  cursor: pointer;
+  height: 400px;
+  vertical-align: top;
+}
+
+.boxtextarea{
+  align-items: center;
+}
+
+.drawgroup{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 80px;
+  position: relative; left: 45px; top: 150px;
+}
+
+.textbox{
+  display: inline-block;
+  position: relative; left: 415px; top: 45px;
+  background-image: linear-gradient(to bottom right, rgb(245, 187, 80), rgb(243, 97, 97));
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 6px;
+  padding: 20px;
+  text-align: center;
+  font-size: 22px;
+  height: 405px;
+  width: 520px;
+}
+
+.Ellie{
+  display: inline-block;
+  position: relative; left: 190px; top: 110px;
+  height: 550px;
+}
+
+.navigation{
+  height: 80px;
+  width: 980px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+  border-style: solid;
+  border-bottom-right-radius: 20px;
+  background-image: linear-gradient(to bottom right, rgb(248, 182, 61), rgb(244, 77, 77));
+}
+
+.butterfly1{
+  height: 250px;
+  width: 250px;
+  opacity: 0.1;
+  position: fixed; bottom: 50px; right: 100px; rotate: -50deg;
+  z-index: -1;
+}
+
+.butterfly2{
+  height: 250px;
+  width: 250px;
+  opacity: 0.1;
+  position: fixed; top: 150px; left: 200px;
+  z-index: -1;
+}
+
+.butterfly3{
+  height: 150px;
+  width: 150px;
+  opacity: 0.1;
+  position: fixed; bottom: 0px; left: 50px;
+  z-index: -1;
+}
+
+.butterfly4{
+  height: 150px;
+  width: 150px;
+  opacity: 0.1;
+  position: fixed; top: 50px; right: 100px;
+  z-index: -1;
+}
+
+.butterfly5{
+  height: 150px;
+  width: 150px;
+  opacity: 0.1;
+  position: fixed; top: 350px; right: 750px;
+  z-index: -1;
+}
+
+.nextbutton,
+.nextbutton2{
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  position: relative; bottom: -220px; right: -1380px;
+}
+
+.nextbutton2{
+  right: -1280px;
+}
+
+.nextbutton:hover,
+.nextbutton2:hover{
+  opacity: 0.7;
+}
+
+.nextbutton:active,
+.nextbutton2:active{
+  opacity: 0.5;
+}
+
+.backbutton,
+.backbutton2{
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  position: relative; bottom: -220px; right: -40px;
+}
+
+.backbutton2{
+  position: relative; bottom: -220px; right: 65px;
+}
+
+.backbutton:hover,
+.backbutton2:hover{
+  opacity: 0.7;
+}
+
+.backbutton:active,
+.backbutton2:active{
+  opacity: 0.5;
+}
+
+.poetrybox1,
+.poetrybox2,
+.poetrybox3,
+.poetrybox4,
+.poetrybox5,
+.poetrybox6,
+.poetrybox7,
+.poetrybox8,
+.poetrybox9,
+.poetrybox10,
+.poetrybox11,
+.poetrybox12,
+.poetrybox13,
+.poetrybox14,
+.poetrybox15{
+  top: 300px;
+  left: 500px;
+  width: 600px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 8px;
+  z-index: 0;
+}
+
+.poetrybox1{
+  background-image: linear-gradient(to bottom right, rgb(111, 229, 247), rgb(246, 245, 245));  
+}
+.poetrybox2{
+  background-image: linear-gradient(to bottom right, rgb(252, 178, 50), rgb(241, 104, 104));  
+}
+
+.poetrybox3{
+  background-image: linear-gradient(rgb(77, 224, 241), rgb(106, 234, 244));  
+}
+
+.poetrybox4{
+  background-image: linear-gradient(rgb(92, 222, 92), rgb(58, 191, 58));
+}
+
+.poetrybox5{
+  background-image: linear-gradient(to bottom right, rgb(245, 187, 80), rgb(243, 97, 97));
+}
+
+.poetrybox6{
+  background-image: linear-gradient(to bottom right, rgb(229, 235, 80), rgb(240, 126, 239));
+}
+
+.poetrybox7{
+  background-image: linear-gradient(to bottom right,rgb(227, 100, 20), rgb(154, 3, 30));
+}
+
+.poetrybox8{
+  background-image: linear-gradient(to bottom right,rgb(217, 189, 143), rgb(217, 189, 143));
+}
+
+.poetrybox9{
+  background-image: linear-gradient(to right, rgb(133,20,114), rgb(206,75,148));
+}
+
+.poetrybox10{
+  background-image: linear-gradient(to bottom right,rgb(239, 141, 231), rgb(236, 107, 107));
+}
+
+.poetrybox11{
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(11, 221, 11), rgb(236, 34, 34));
+}
+
+.poetrybox12{
+  background-image: linear-gradient(to bottom right, rgb(211, 32, 32), rgb(238, 114, 114));
+}
+
+.poetrybox13{
+  background-image: linear-gradient(to bottom right,rgb(72, 192, 32), rgb(72, 192, 32));
+}
+
+.poetrybox14{
+  background-image: linear-gradient(to bottom right,rgb(101, 193, 212), rgb(186, 89, 186));
+}
+
+.poetrybox15{
+  background-image: linear-gradient(to right,rgb(247, 247, 63),rgb(237, 140, 0));
+}
+
+.poemtitle,
+.poemtitle2{
+  border-style: solid;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.poemtitle2{
+  font-family: "Monotype Corsiva", serif;
+}
+
+.poem,
+.poem2,
+.poem3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+  z-index: 2;
+}
+
+.poem2{
+  text-align: justify;
+  padding-left: 8px;
+}
+
+.poem3{
+  font-family: "Monotype Corsiva", serif;
+  font-size: 22px;
+}
+
+.pbackground1,
+.pbackground2,
+.pbackground3,
+.pbackground4,
+.pbackground5,
+.pbackground6,
+.pbackground7,
+.pbackground8,
+.pbackground9,
+.pbackground10,
+.pbackground11,
+.pbackground12,
+.pbackground13,
+.pbackground14,
+.pbackground15{
+  position: absolute;
+  left: 2px;
+  top: 42px;
+  height: 513px;
+  width: 600px;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.pbackground2{
+  top: 1495px;
+  height: 1052px;
+}
+
+.pbackground3{
+  top: 50px;
+  height: 990px;
+  opacity: 0.6;
+}
+
+.pbackground4{
+  top: 511px;
+  height: 805px;
+}
+
+.pbackground5{
+  top: 735px;
+  height: 402px;
+}
+
+.pbackground6{
+  height: 290px;
+  opacity: 0.2;
+}
+
+.pbackground7{
+  top: 1188px;
+  height: 370px;
+}
+
+.pbackground8{
+  top: 1700px;
+  height: 693px;
+  opacity: 0.2;
+}
+
+.pbackground9{
+  top: 70px;
+  left: 50px;
+  height: 430px;
+  width: 500px;
+}
+
+.pbackground10{
+top: 1295px;
+height: 647px;
+}
+
+.pbackground11{
+  top: 1320px;
+  height: 463px;
+  opacity: 0.4;
+}
+
+.pbackground12{
+  top: 690px;
+  height: 425px;
+}
+
+.pbackground13{
+  height: 535px;
+  background-image: linear-gradient(rgb(2, 34, 44), rgb(2, 34, 44));
+}
+
+.pbackground14{
+  top: 757px;
+  height: 245px;
+  opacity: 0.5;
+}
+
+.pbackground15{
+  top: 1180px;
+  height: 695px;
+}
+
+.poemdate{
+  font-size: 22px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  border-style: solid;
+  border-top-width: 2px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+
+.poetrygroup,
+.poetrygroup2{
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 100px;
+  width: 600px;
+  position: relative; left: 475px; top: 150px;
+}
