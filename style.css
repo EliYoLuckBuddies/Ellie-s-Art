@@ -1,6 +1,7 @@
 .Home{
   background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
   margin: 0px;
+  background-attachment: fixed;
 }
 
 .Drawings{
@@ -8,6 +9,7 @@
   margin: 0px;
   height: 2550px;
   width: 1474px;
+  background-attachment: fixed;
 }
 
 .Drawings2{
@@ -15,6 +17,7 @@
   margin: 0px;
   height: 890px;
   width: 1474px;
+  background-attachment: fixed;
 }
 
 .Poetry,
@@ -25,6 +28,7 @@
   background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
   margin: 0px;
   height: 2240px;
+  background-attachment: fixed;
 }
 
 .Poetry2{
@@ -46,17 +50,20 @@
 .OC{
   background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
   margin: 0px;
+  background-attachment: fixed;
 }
 
 .Participation{
   background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
   margin: 0px;
+  background-attachment: fixed;
 }
 
 .AboutMe{
   background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
   margin: 0px;
   height: 1200px;
+  background-attachment: fixed;
 }
 
 .Logo{
@@ -172,7 +179,7 @@ p{
 
 .drawingbox{
   background-image: linear-gradient(to right, rgb(245, 187, 80), rgb(243, 97, 97));
-  height: 470px;
+  height: 490px;
   width: 300px;
   display: inline-block;
   margin: 0px;

@@ -16,6 +16,8 @@
     background-attachment: fixed;
   }
 
+  
+
   .drawgroup{
     grid-template-columns: 300px 300px;
     column-gap: 100px;
@@ -69,6 +71,6 @@
   }
 
   .drawingbox{
-    height: 480px;
+    height: 490px;
   }
 }
