@@ -125,49 +125,13 @@ p{
   margin-top: 0;
   margin-bottom: 0;
 }
-.dtitle, 
-.dtitleM,
-.dtitleB,
-.dtitleBG,
-.dtitleMe,
-.dtitleC,
-.dtitleK{
+.dtitle{
   font-family: 'Times New Roman', Times, serif;
   font-size: 17px;
   font-weight: bold;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 5px;
-}
-
-.dtitleM{
-  margin-top: 2px;
-  margin-bottom: 1px;
-}
-
-.dtitleC{
-  margin-top: 2px;
-  margin-bottom: 1px;
-}
-
-.dtitleMe{
-  margin-top: 0px;
-  margin-bottom: 3px;
-}
-
-.dtitleB{
-  margin-top: 5px;
-  margin-bottom: 0px;
-}
-
-.dtitleBG{
-  margin-top: 0px;
-  margin-bottom: 3px;
-}
-
-.dtitleK{
-  margin-top: 2px;
-  margin-bottom: 1px;
 }
 
 .date{
