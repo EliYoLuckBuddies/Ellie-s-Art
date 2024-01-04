@@ -269,7 +269,8 @@ p{
 }
 
 .backbutton,
-.backbutton2{
+.backbutton2,
+.backbutton3{
   height: 100px;
   width: 100px;
   cursor: pointer;
@@ -523,8 +524,7 @@ height: 647px;
   border-bottom-width: 0px;
 }
 
-.poetrygroup,
-.poetrygroup2{
+.poetrygroup{
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 100px;

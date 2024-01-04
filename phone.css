@@ -16,8 +16,6 @@
     background-attachment: fixed;
   }
 
-  
-
   .drawgroup{
     grid-template-columns: 300px 300px;
     column-gap: 100px;
@@ -52,8 +50,20 @@
     bottom: -240px;
   }
 
+  .nextbutton2{
+    right: -850px;
+  }
+
   .backbutton{
     bottom: -1560px;
+  }
+
+  .backbutton2{
+    bottom: -245px;
+  }
+
+  .backbutton3{
+    bottom: -220px;
   }
 
   .butterfly2{
@@ -72,5 +82,21 @@
 
   .drawingbox{
     height: 490px;
+  }
+
+  .poetrygroup{
+    left: 245px;
+  }
+
+  .textbox{
+    width: 450px;
+    height: 455px;
+    top: 150px;
+    left: 100px;
+  }
+
+  .Ellie{
+    top: 200px;
+    left: 50px;
   }
 }
