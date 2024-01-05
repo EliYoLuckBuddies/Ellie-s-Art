@@ -414,7 +414,6 @@ p{
 }
 
 .pbackground,
-.pbackground7,
 .pbackground9{
   position: absolute;
   left: 0px;
@@ -424,11 +423,6 @@ p{
   bottom: 0px;
   opacity: 0.3;
   z-index: -1;
-}
-
-.pbackground7{
-  bottom: -38px;
-  height: 370px;
 }
 
 .pbackground9{
