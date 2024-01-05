@@ -190,7 +190,7 @@ p{
 
 .Ellie{
   display: inline-block;
-  position: relative; left: 190px; top: 110px;
+  position: relative; left: 190px; top: 120px;
   height: 550px;
 }
 
@@ -395,6 +395,7 @@ p{
 .poem,
 .poem2,
 .poem3{
+  position: relative;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 20px;
@@ -412,104 +413,27 @@ p{
   font-size: 22px;
 }
 
-.pbackground1,
-.pbackground2,
-.pbackground3,
-.pbackground4,
-.pbackground5,
-.pbackground6,
+.pbackground,
 .pbackground7,
-.pbackground8,
-.pbackground9,
-.pbackground10,
-.pbackground11,
-.pbackground12,
-.pbackground13,
-.pbackground14,
-.pbackground15{
+.pbackground9{
   position: absolute;
-  left: 2px;
-  top: 42px;
-  height: 513px;
-  width: 600px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  bottom: 0px;
   opacity: 0.3;
   z-index: -1;
 }
 
-.pbackground2{
-  top: 1495px;
-  height: 1052px;
-}
-
-.pbackground3{
-  top: 50px;
-  height: 990px;
-  opacity: 0.6;
-}
-
-.pbackground4{
-  top: 511px;
-  height: 805px;
-}
-
-.pbackground5{
-  top: 735px;
-  height: 402px;
-}
-
-.pbackground6{
-  height: 290px;
-  opacity: 0.2;
-}
-
 .pbackground7{
-  top: 1188px;
+  bottom: -38px;
   height: 370px;
 }
 
-.pbackground8{
-  top: 1700px;
-  height: 693px;
-  opacity: 0.2;
-}
-
 .pbackground9{
-  top: 70px;
-  left: 50px;
-  height: 430px;
-  width: 500px;
-}
-
-.pbackground10{
-top: 1295px;
-height: 647px;
-}
-
-.pbackground11{
-  top: 1320px;
-  height: 463px;
-  opacity: 0.4;
-}
-
-.pbackground12{
-  top: 690px;
-  height: 425px;
-}
-
-.pbackground13{
-  height: 535px;
-  background-image: linear-gradient(rgb(2, 34, 44), rgb(2, 34, 44));
-}
-
-.pbackground14{
-  top: 757px;
-  height: 245px;
-  opacity: 0.5;
-}
-
-.pbackground15{
-  top: 1180px;
-  height: 695px;
+  height: 450px;
+  object-fit: contain;
 }
 
 .poemdate{
