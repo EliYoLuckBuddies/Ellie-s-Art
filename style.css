@@ -1,74 +1,17 @@
-.Home{
-  background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
-  margin: 0px;
-  background-attachment: fixed;
-}
-
-.Drawings{
-  background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
-  margin: 0px;
-  height: 2550px;
-  width: 1474px;
-  background-attachment: fixed;
-}
-
-.Drawings2{
-  background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
-  margin: 0px;
-  height: 890px;
-  width: 1474px;
-  background-attachment: fixed;
-}
-
+.Home,
+.Drawings,
+.Drawings2,
 .Poetry,
 .Poetry2,
 .Poetry3,
 .Poetry4,
-.Poetry5{
-  background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
-  margin: 0px;
-  height: 2240px;
-  background-attachment: fixed;
-}
-
-.Poetry2{
-  height: 3000px;
-}
-
-.Poetry3{
-  height: 2845px;
-}
-
-.Poetry4{
-  height: 2390px;
-}
-
-.Poetry5{
-  height: 2325px;
-}
-
-.OC{
-  background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
-  margin: 0px;
-  background-attachment: fixed;
-}
-
-.C1{
-  background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
-  margin: 0px;
-  background-attachment: fixed;
-}
-
-.Participation{
-  background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
-  margin: 0px;
-  background-attachment: fixed;
-}
-
+.Poetry5,
+.OC,
+.C1,
+.Participation,
 .AboutMe{
   background-image: linear-gradient(to bottom right, rgba(252, 185, 196, 1),rgb(250, 250, 64));
   margin: 0px;
-  height: 1200px;
   background-attachment: fixed;
 }
 
@@ -92,7 +35,7 @@ padding-right: 12px;
   width: 150px;
 }
 
-@font-face { font-family: Minnie; src: url('Minnie.TTF');}
+@font-face {font-family: Minnie; src: url('Minnie.TTF');}
 
 .buttons{
   background-image: linear-gradient(to bottom right, yellow, orange);
@@ -152,7 +95,6 @@ p{
   height: 490px;
   width: 300px;
   display: inline-block;
-  margin: 0px;
   vertical-align: top;
   border-width: 2px;
   border-color: black;
@@ -173,9 +115,10 @@ p{
 
 .drawgroup{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 16px;
+  grid-template-columns: 300px 300px 300px 300px;
+  column-gap: 75px;
   row-gap: 80px;
+  width: 1425px;
   position: relative; left: 45px; top: 150px;
 }
 
@@ -516,9 +459,7 @@ p{
   border-left-width: 0px;
   border-right-width: 0px;
   border-bottom-width: 0px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 5px;
+  padding: 5px;
   text-align: right;
   font-size: 18px;
 }
