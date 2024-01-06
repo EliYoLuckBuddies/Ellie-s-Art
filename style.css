@@ -533,7 +533,9 @@ p{
   display: grid;
   grid-template-columns: 300px 300px 300px;
   column-gap: 100px;
+  row-gap: 50px;
   margin-left: 210px;
+  margin-bottom: 50px;
 }
 
 .CText{
@@ -561,7 +563,6 @@ p{
   border-radius: 6px;
   border-color: black;
   vertical-align: top;
-  margin-bottom: 50px;
 }
 
 .CImgS{
