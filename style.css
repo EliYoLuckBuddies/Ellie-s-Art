@@ -506,7 +506,7 @@ p{
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 200px;
-  row-gap: 200px;
+  row-gap: 100px;
   width: 600px;
   position: relative; left: 160px; top: 150px;
 }
