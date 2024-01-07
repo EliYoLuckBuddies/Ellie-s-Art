@@ -522,3 +522,17 @@ p{
 .CBack2{
 top: 30px;
 }
+
+.quote{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  top: 100px;
+  left: 50px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 6px;
+  padding: 5px;
+  width: 500px;
+  background-image: linear-gradient(to right, rgb(245, 187, 80), rgb(243, 97, 97));
+}
