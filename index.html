@@ -5,7 +5,7 @@
     </head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="phone.css">
-    <body class="Home">
+    <body class="Home" onload="randomQuote()">
         <nav class="navigation">
             <a class="Logo" href="index.html"><img class="LogoImg" src="Images/Logo.png" alt="Ellie's Art"></a>
             <button class="buttons" title="Начало" onclick="window.location.href='index.html';">
@@ -28,7 +28,7 @@
             </button>
         </nav>
 
-        <i class="quote" id="quote" onclick="randomQuote()">"Щастието е ключът към успеха."</i>
+        <i class="quote" id="quote"></i>
         
         <img class="butterfly1" src="Images/butterfly1.png" alt="">
         <img class="butterfly2" src="Images/butterfly2.png" alt="">

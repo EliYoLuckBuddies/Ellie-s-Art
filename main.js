@@ -42,9 +42,10 @@ quotes[21] = "„Бъдещето принадлежи на хората, кои
 quotes[22] = "„Целта на живота ни е да бъдем щастливи.“";
 quotes[23] = "„Щастието е пътешествие, а не дестинация.“";
 quotes[24] = "„Нито едно лекарство не лекува това, което щастието не може.“";
+quotes[25] = "„Щастието е ключът към успеха.“"
 
 
 function randomQuote() {
-  let randomNum = Math.floor(Math.random() * 25);
+  let randomNum = Math.floor(Math.random() * 26);
   document.getElementById("quote").innerHTML = quotes[randomNum]
 }
