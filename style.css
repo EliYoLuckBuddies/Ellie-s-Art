@@ -197,7 +197,8 @@ p{
 }
 
 .nextbutton,
-.nextbutton2{
+.nextbutton2,
+.nextbutton3{
   height: 100px;
   width: 100px;
   cursor: pointer;
@@ -209,12 +210,14 @@ p{
 }
 
 .nextbutton:hover,
-.nextbutton2:hover{
+.nextbutton2:hover,
+.nextbutton3:hover{
   opacity: 0.7;
 }
 
 .nextbutton:active,
-.nextbutton2:active{
+.nextbutton2:active,
+.nextbutton3:active{
   opacity: 0.5;
 }
 

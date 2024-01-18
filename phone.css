@@ -8,6 +8,7 @@
   .Poetry4,
   .Poetry5,
   .OC,
+  .C1,
   .Participation,
   .AboutMe{
     height: 100%;
@@ -47,6 +48,11 @@
 
   .nextbutton{
     right: -950px;
+    bottom: -240px;
+  }
+
+  .nextbutton3{
+    right: -780px;
     bottom: -240px;
   }
 
@@ -105,5 +111,29 @@
 
   .quote{
     left: 275px;
+  }
+
+  .craftgroup{
+    column-gap: 100px;
+    top: 180px;
+    left: 90px;
+  }
+
+  .craftbox{
+    width: 400px;
+  }
+
+  .craftimg{
+    width: 400px;
+  }
+
+  .CImg,
+  .CImgS{
+    width: 200px;
+  }
+
+  .CGroup{
+    grid-template-columns: 200px 200px 200px;
+    margin: 135px;
   }
 }
