@@ -124,13 +124,15 @@
   .craftbox,
   .indexbox,
   .indexpbox,
-  .partbox{
+  .partbox,
+  .bookbox{
     width: 400px;
   }
 
   .craftimg,
   .indeximg,
-  .partimg{
+  .partimg,
+  .bookimg{
     width: 400px;
   }
 
@@ -151,5 +153,9 @@
   .IndexTextBox{
     left: 90px;
     width: 885px;
+  }
+
+  .bookbox{
+    left: 370px;
   }
 }
