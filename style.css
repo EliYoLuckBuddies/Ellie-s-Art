@@ -540,7 +540,8 @@ top: 30px;
 .quote{
   position: relative;
   display: inline-block;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 25px;
   top: 5px;
   left: 185px;
   padding: 5px;
