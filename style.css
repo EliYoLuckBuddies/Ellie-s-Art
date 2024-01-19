@@ -209,6 +209,10 @@ p{
   right: -1280px;
 }
 
+.nextbutton3{
+  bottom: 10px;
+}
+
 .nextbutton:hover,
 .nextbutton2:hover,
 .nextbutton3:hover{
@@ -453,6 +457,7 @@ p{
 .craftgroup{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-auto-rows: auto;
   column-gap: 200px;
   row-gap: 100px;
   width: 600px;
@@ -652,4 +657,78 @@ top: 30px;
 
 .categorytext{
   cursor: pointer;
+}
+
+.partbox{
+  top: 300px;
+  left: 10px;
+  width: 500px;
+  background-image: linear-gradient(to right, rgb(245, 187, 80), rgb(243, 97, 97));
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  vertical-align: top;
+  z-index: 0;
+}
+
+.parttitle{
+  border-style: solid;
+  border-top-width: 2px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 23px;
+}
+
+.part{
+  position: relative;
+  font-size: 20px;
+  z-index: 2;
+}
+
+.partimg{
+  left: 0px;
+  height: 600px;
+  width: 500px;
+  bottom: 0px;
+}
+
+.partdate{
+  font-size: 21px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.partgroup{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: auto;
+  column-gap: 200px;
+  row-gap: 100px;
+  width: 600px;
+  position: relative; left: 160px; top: 150px;
+}
+
+.IndexTextBox{
+  display: block;
+  position: relative;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-top-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 25px;
+  top: 100px;
+  left: 160px;
+  width: 1185px;
+  background-image: linear-gradient(to right, rgb(245, 187, 80), rgb(243, 97, 97));
 }
