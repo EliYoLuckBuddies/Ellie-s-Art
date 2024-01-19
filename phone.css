@@ -158,4 +158,8 @@
   .bookbox{
     left: 370px;
   }
+
+  .indextext{
+    font-size: 35px;
+  }
 }
