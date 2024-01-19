@@ -367,7 +367,8 @@ p{
 }
 
 .pbackground,
-.pbackground9{
+.pbackground9,
+.ibackground{
   position: absolute;
   left: 0px;
   height: 100%;
@@ -542,4 +543,113 @@ top: 30px;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;  
+}
+
+.indexbox,
+.indexpbox{
+  top: 300px;
+  left: 10px;
+  width: 500px;
+  background-image: linear-gradient(to right, rgb(245, 187, 80), rgb(243, 97, 97));
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  vertical-align: top;
+  z-index: 0;
+}
+
+.indexp{
+  background-image: linear-gradient(to bottom right, rgb(111, 229, 247), rgb(246, 245, 245));
+}
+
+.indextitle{
+  border-style: solid;
+  border-top-width: 2px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.index,
+.indexp{
+  position: relative;
+  font-size: 20px;
+  z-index: 2;
+}
+
+.indextext{
+  height: 600px;
+  text-align: center;
+  font-size: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.indeximg{
+  left: 0px;
+  height: 600px;
+  width: 500px;
+  bottom: 0px;
+}
+
+.indexdate{
+  border-top-width: 2px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-style: solid;
+  font-size: 21px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.indexgroup{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 200px;
+  row-gap: 50px;
+  width: 600px;
+  position: relative; left: 160px; top: 150px;
+}
+
+.toPoem{
+  border-style: solid;
+  border-top-width: 2px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  padding: 5px;
+  text-align: right;
+  font-size: 18px;
+}
+
+.toPoem:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.categorytitle{
+  height: 30px;
+  text-align: center;
+  padding-top: 7px;
+  font-size: 20px;
+  font-weight: bold;
+  border-style: solid;
+  border-bottom-width: 2px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+.categorytext{
+  cursor: pointer;
 }

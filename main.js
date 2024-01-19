@@ -14,6 +14,11 @@ function changeImage() {
   }
 }
 
+document.getElementById("latestdrawing").setAttribute("src", 'Images/MoonCat.png');
+document.getElementById("latestdrawtext").innerHTML = '&#127773&#128049Лунна магия с коте<br>под звездната нощ&#128049&#127773';
+document.getElementById("latestdrawdate").innerHTML = '04.01.2024г.';
+
+
 //Quote Array
 
 const quotes = [];
