@@ -26,11 +26,11 @@
 
   .navigation{
     height: 150px;
-    width: 1075px;
+    width: 1085px;
   }
 
   .buttons{
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 35px;
     height: 80px;
     border-color: black;
@@ -137,8 +137,13 @@
   }
 
   .CImg,
-  .CImgS{
+  .CImgS,
+  .CImgM{
     width: 200px;
+  }
+
+  .CImgM{
+    margin-left: 300px;
   }
 
   .CGroup{
