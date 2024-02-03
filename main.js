@@ -14,9 +14,9 @@ function changeImage() {
   }
 }
 
-document.getElementById("latestdrawing").setAttribute("src", 'Images/MoonCat.png');
-document.getElementById("latestdrawtext").innerHTML = '&#127773&#128049Лунна магия с коте<br>под звездната нощ&#128049&#127773';
-document.getElementById("latestdrawdate").innerHTML = '04.01.2024г.';
+document.getElementById("latestdrawing").setAttribute("src", 'Images/Love2.jpg');
+document.getElementById("latestdrawtext").innerHTML = '&#129392&#129505Красотата на любовта&#129505&#129392';
+document.getElementById("latestdrawdate").innerHTML = '03.02.2024г.';
 
 
 //Quote Array
