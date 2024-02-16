@@ -14,9 +14,9 @@ function changeImage() {
   }
 }
 
-document.getElementById("latestdrawing").setAttribute("src", 'Images/Love2.jpg');
-document.getElementById("latestdrawtext").innerHTML = '&#129392&#129505Красотата на любовта&#129505&#129392';
-document.getElementById("latestdrawdate").innerHTML = '03.02.2024г.';
+document.getElementById("latestdrawing").setAttribute("src", 'Images/iceskate.jpg');
+document.getElementById("latestdrawtext").innerHTML = '&#127935&#129505Зимна приказка&#129505&#127935';
+document.getElementById("latestdrawdate").innerHTML = '16.02.2024г.';
 
 
 //Quote Array
